@@ -1,0 +1,316 @@
+<!-- klon strony www: https://wbst.edu.pl/studia/ -->
+<!-- W nastepnej stronie popraw:
+1. daj jednostki bezwzględne do padding, margin ?? sprawdz rozwiązanie w internecie 
+2. Rozmiar czcionki daj we względnych jednostkach
+3. Używaj margin a nie padding do tworzenia odstępów między elementami - pamiętaj o colapsing margins
+4. Używaj innych ikon - przy zmianie background-color widać białe tło ikony img
+5. Dodaj względne jednostki d diżych napisów na stronie -->
+
+<!DOCTYPE html>
+<html lang="pl-PL">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Klon WBST 2 - studia licencackie</title>
+    <link rel="shortcut icon" href="images/warrior.jpg">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <nav class="header-center-nav">
+            <figure>
+                <a href="index.html" class="header-left-nav-figure-a">
+                    <img src="images/logo.png" alt="logo" class="header-left-nav-figure-a-img">
+                </a>
+            </figure>
+            <section class="header-center-nav-section1">
+                <a href="index.html" class="header-center-nav-section1-a">Uczelnia</a>
+                <a href="index.html" class="header-center-nav-section1-a">Kadra</a>
+                <a href="index.html" class="header-center-nav-section1-a">Oferta</a>
+                <a href="index.html" class="header-center-nav-section1-a">Dla studenta</a>
+                <a href="index.html" class="header-center-nav-section1-a">Rekrutacja</a>
+                <a href="index.html" class="header-center-nav-section1-a">Kontakt</a>
+            </section>
+            <section class="header-center-nav-section2">
+                <a href="index.html" class="header-center-nav-section2-a">
+                    <img src="images/facebook_icon.png" alt="" class="header-center-nav-section2-a-img">
+                </a>
+                <a href="index.html" class="header-center-nav-section2-a">
+                    <img src="images/instagram_icon.png" alt="" class="header-center-nav-section2-a-img">
+                </a>
+                <a href="index.html" class="header-center-nav-section2-a">
+                    <img src="images/youtube_icon.png" alt="" class="header-center-nav-section2-a-img">
+                </a>
+                <a href="index.html" class="header-center-nav-section2-a">
+                    <img src="images/linkedin_icon.png" alt="" class="header-center-nav-section2-a-img">
+                </a>
+            </section>
+        </nav>
+    </header>
+    <main>
+        <article>
+            <section class="main-across-article-section1">
+                <h1 class="main-across-article-section1-h1">Studia
+                    licencjackie</h1>
+                <div class="main-across-article-section1-div">
+                    <p class="main-across-article-section1-div-p"><span
+                            class="main-across-article-section1-div-p-span">3-letnie studia licencjackie</span> bądź
+                        <span class="main-across-article-section1-div-p-span">studia uzupełniające</span>
+                        – dla zainteresowanych służbą pastorską, ale także dla wszystkich, którym leży na sercu
+                        budowanie Królestwa Bożego w jakiejkolwiek formie zgodnej z nowotestamentowym powołaniem.
+                    </p>
+                    <a href="index.html" class="main-across-article-section1-div-a">APLIKUJ</a>
+                </div>
+            </section>
+
+            <section class="main-across-article-section2">
+                <section class="main-across-article-section2-section1">
+                    <p class="main-across-article-section2-section1-p">720 godzin zajęć prowadzonych przez cenionych
+                        znawców swoich dziedzin: biblistyki, dogmatyki,
+                        języków biblijnych, historii, filozofii, duszpasterstwa, misji, uczniostwa i innych.</p>
+                    <p class="main-across-article-section2-section1-p">Studia odbywają się w formule hybrydowej łącząc
+                        zalety klasycznych studiów stacjonarnych
+                        (zaocznych) oraz studiów online przez platformę Moodle.</p>
+                    <h2 class="main-across-article-section2-section1-h2">Studia licencjackie z teologii baptystycznej
+                    </h2>
+                    <p class="main-across-article-section2-section1-p">Program skierowany jest do wszystkich, którzy
+                        chcą zgłębić naukę Pisma Świętego i rzetelnie
+                        przygotować się do służby. Celem studiów jest zapoznanie słuchaczy z zagadnieniami z zakresu
+                        biblistyki, teologii systematycznej, historii kościoła, teologii praktycznej, kształtowanie
+                        formacji duchowej i uwrażliwienie na wyzwania życia społecznego.</p>
+                    <h2 class="main-across-article-section2-section1-h2">Studia uzupełniające licencjackie</h2>
+                    <p class="main-across-article-section2-section1-p">Drugi program to studia skierowane do absolwentów
+                        szkół biblijnych, które nie nadają tytułu
+                        licencjata. Uzupełnienie różnic programowych umożliwia studentowi uzyskanie tytułu licencjata.
+                    </p>
+                </section>
+
+                <section class="main-across-article-section2-section2">
+                    <h2 class="main-across-article-section2-section2-h2">WARUNKI PRZYJĘCIA NA STUDIA <span>(wszystkie
+                            programy):</span></h2>
+                    <ul class="main-across-article-section2-section2-ol">
+                        <li class="main-across-article-section2-section2-ol-li">Wypełnienie i przesłanie do WBST
+                            formularza zgłoszeniowego wraz z załącznikami.</li>
+                        <li class="main-across-article-section2-section2-ol-li">Uzyskanie rekomendacji pastora lub
+                            lidera zboru.</li>
+                        <li class="main-across-article-section2-section2-ol-li">Pozytywny wynik rozmowy kwalifikacyjnej.
+                        </li>
+                    </ul>
+                    <p class="main-across-article-section2-section2-p">Warunkiem uzyskania tytułu licencjata jest
+                        uzyskanie zaliczenia przedmiotów przewidzianych w
+                        programie studiów i obrona pracy licencjackiej. Dyplom licencjata uprawnia do kontynuowania
+                        edukacji na poziomie studiów magisterskich.</p>
+                    <p class="main-across-article-section2-section2-p">Sesje studiów odbywają się cyklicznie (8 zjazdów
+                        w Radości, 6 zjazdów online), według ustalonego
+                        kalendarium na każdy rok akademicki, w blokach 20-godzinnych, od piątku wieczorem do
+                        niedzielnego popołudnia.</p>
+                </section>
+            </section>
+            <section class="main-across-article-section3">
+                <section class="main-across-article-section3-section1">
+                    <div class="main-across-article-section3-div">
+                        <img src="images/note.png" alt="images/note.png"
+                            class="main-across-article-section3-section1-img"> PRZEDMIOTY I WYKŁADOWCY
+                    </div>
+                    <div class="main-across-article-section3-div">
+                        <img src="images/calendar.png" alt="images/calendar.png"
+                            class="main-across-article-section3-section1-img"> KALENDARIUM
+                    </div>
+                    <div class="main-across-article-section3-div">
+                        <img src="images/cena.png" alt="images/cena.png"
+                            class="main-across-article-section3-section1-img"> KOSZTY
+                    </div>
+                </section>
+                <section class="main-across-article-section3-section2">
+                    <h3 class="main-across-article-section3-section2-h3"><span>PRZEDMIOTY </span>w roku akademickim
+                        2021/2022:</h3>
+                    <ol class="main-across-article-section3-section2-ol">
+                        <li class="main-across-article-section3-section2-ol-li">
+                            <p class="main-across-article-section3-section2-ol-li-p">Wstęp do Starego Testamentu <span
+                                    class="main-across-article-section3-section2-ol-li-p-span">dr Robert Merecz</span>
+                            </p>
+                        </li>
+                        <li class="main-across-article-section3-section2-ol-li">
+                            <p class="main-across-article-section3-section2-ol-li-p">Przegląd ksiąg Starego
+                                Testamentu<span class="main-across-article-section3-section2-ol-li-p-span">dr Robert
+                                    Merecz</span></p>
+                        </li>
+                        <li class="main-across-article-section3-section2-ol-li">
+                            <p class="main-across-article-section3-section2-ol-li-p">Egzegeza Starego Testamentu <span
+                                    class="main-across-article-section3-section2-ol-li-p-span">dr Robert Merecz</span>
+                            </p>
+                        </li>
+                        <li class="main-across-article-section3-section2-ol-li">
+                            <p class="main-across-article-section3-section2-ol-li-p">Język hebrajski <span
+                                    class="main-across-article-section3-section2-ol-li-p-span">dr Robert Merecz</span>
+                            </p>
+                        </li>
+                        <li class="main-across-article-section3-section2-ol-li">
+                            <p class="main-across-article-section3-section2-ol-li-p">Historia Kościoła <span
+                                    class="main-across-article-section3-section2-ol-li-p-span">dr Włodzimierz
+                                    Tasak</span></p>
+                        </li>
+                        <li class="main-across-article-section3-section2-ol-li">
+                            <p class="main-across-article-section3-section2-ol-li-p">Wstęp do teologii
+                                protestanckiej<span class="main-across-article-section3-section2-ol-li-p-span">dr
+                                    Mateusz Wichary / mgr Samuel Skrzypkowski</span></p>
+                        </li>
+                        <li class="main-across-article-section3-section2-ol-li">
+                            <p class="main-across-article-section3-section2-ol-li-p">Dogmatyka <span
+                                    class="main-across-article-section3-section2-ol-li-p-span">dr Mateusz Wichary / mgr
+                                    Samuel Skrzypkowski</span></p>
+                        </li>
+                        <li class="main-across-article-section3-section2-ol-li">
+                            <p class="main-across-article-section3-section2-ol-li-p">Wiedza o baptyźmie <span
+                                    class="main-across-article-section3-section2-ol-li-p-span">dr Mateusz Wichary / mgr
+                                    Samuel Skrzypkowski</span></p>
+                        </li>
+                        <li class="main-across-article-section3-section2-ol-li">
+                            <p class="main-across-article-section3-section2-ol-li-p">Ewangelie i Dzieje Apostolskie
+                                <span class="main-across-article-section3-section2-ol-li-p-span">mgr Tomasz
+                                    Terefenko</span>
+                            </p>
+                        </li>
+                        <li class="main-across-article-section3-section2-ol-li">
+                            <p class="main-across-article-section3-section2-ol-li-p">Listy św. Pawła <span
+                                    class="main-across-article-section3-section2-ol-li-p-span">dr Piotr Zaremba
+                                </span></p>
+                        </li>
+                        <li class="main-across-article-section3-section2-ol-li">
+                            <p class="main-across-article-section3-section2-ol-li-p">Pozostałe listy Nowego Testamentu
+                                <span class="main-across-article-section3-section2-ol-li-p-span"> mgr Tomasz
+                                    Terefenko</span>
+                            </p>
+                        </li>
+                        <li class="main-across-article-section3-section2-ol-li">
+                            <p class="main-across-article-section3-section2-ol-li-p">Homiletyka <span
+                                    class="main-across-article-section3-section2-ol-li-p-span">dr Robert Miksa</span>
+                            </p>
+                        </li>
+                        <li class="main-across-article-section3-section2-ol-li">
+                            <p class="main-across-article-section3-section2-ol-li-p">Hermeneutyka <span
+                                    class="main-across-article-section3-section2-ol-li-p-span">dr Robert Miksa</span>
+                            </p>
+                        </li>
+                        <li class="main-across-article-section3-section2-ol-li">
+                            <p class="main-across-article-section3-section2-ol-li-p">Język grecki <span
+                                    class="main-across-article-section3-section2-ol-li-p-span">dr Janusz
+                                    Kucharczyk</span></p>
+                        </li>
+                        <li class="main-across-article-section3-section2-ol-li">
+                            <p class="main-across-article-section3-section2-ol-li-p">Filozofia <span
+                                    class="main-across-article-section3-section2-ol-li-p-span">dr Janusz Kucharczyk / dr
+                                    inż. Przemysław Chmielecki</span></p>
+                        </li>
+                        <li class="main-across-article-section3-section2-ol-li">
+                            <p class="main-across-article-section3-section2-ol-li-p">Etyka <span
+                                    class="main-across-article-section3-section2-ol-li-p-span">dr Janusz Kucharczyk / dr
+                                    inż. Przemysław Chmielecki</span></p>
+                        </li>
+                        <li class="main-across-article-section3-section2-ol-li">
+                            <p class="main-across-article-section3-section2-ol-li-p">Logika <span
+                                    class="main-across-article-section3-section2-ol-li-p-span">dr Janusz Kucharczyk / dr
+                                    inż. Przemysław Chmielecki</span></p>
+                        </li>
+                        <li class="main-across-article-section3-section2-ol-li">
+                            <p class="main-across-article-section3-section2-ol-li-p">Kościoły w Polsce <span
+                                    class="main-across-article-section3-section2-ol-li-p-span"> dr hab. Jan
+                                    Mironczuk</span></p>
+                        </li>
+                        <li class="main-across-article-section3-section2-ol-li">
+                            <p class="main-across-article-section3-section2-ol-li-p">Wyznania niechrześcijańskie <span
+                                    class="main-across-article-section3-section2-ol-li-p-span">dr hab. Jan
+                                    Mironczuk</span></p>
+                        </li>
+                        <li class="main-across-article-section3-section2-ol-li">
+                            <p class="main-across-article-section3-section2-ol-li-p">Ewangelizacja i misja <span
+                                    class="main-across-article-section3-section2-ol-li-p-span">dr Wojciech
+                                    Kowalewski</span></p>
+                        </li>
+                        <li class="main-across-article-section3-section2-ol-li">
+                            <p class="main-across-article-section3-section2-ol-li-p">Katechetyka <span
+                                    class="main-across-article-section3-section2-ol-li-p-span">mgr Michał Stępień</span>
+                            </p>
+                        </li>
+                        <li class="main-across-article-section3-section2-ol-li">
+                            <p class="main-across-article-section3-section2-ol-li-p">Muzyka w Kościele <span
+                                    class="main-across-article-section3-section2-ol-li-p-span">mgr Janusz
+                                    Ciepliński</span></p>
+                        </li>
+                        <li class="main-across-article-section3-section2-ol-li">
+                            <p class="main-across-article-section3-section2-ol-li-p">Teologia duchowości <span
+                                    class="main-across-article-section3-section2-ol-li-p-span">mgr Gustaw Cieślar</span>
+                            </p>
+                        </li>
+                        <li class="main-across-article-section3-section2-ol-li">
+                            <p class="main-across-article-section3-section2-ol-li-p">Praktyka pracy pastorskiej <span
+                                    class="main-across-article-section3-section2-ol-li-p-span">prezb. Marek
+                                    Głodek</span></p>
+                        </li>
+                    </ol>
+                </section>
+                <!-- 3 przyciski i lista przedmiotów -->
+            </section>
+
+        </article>
+    </main>
+    <footer>
+        <section class="footer-across-section1">
+            <section class="footer-across-section">
+                <h3 class="footer-across-section-h3">WBST w Warszawie</h3>
+                <p class="footer-across-section-p">ul. Szczytnowska 35-39<br>04-812 Warszawa</p>
+            </section>
+            <section class="footer-across-section">
+                <h3 class="footer-across-section-h3">Rektorat</h3>
+                <p class="footer-across-section-p">tel. 501 108 283<br>9:00 – 15:00</p>
+            </section>
+            <section class="footer-across-section">
+                <h3 class="footer-across-section-h3">Mail</h3>
+                <p class="footer-across-section-p">rektorat(a)wbst.edu.pl<br>biuro(a)wbst.edu.pl</p>
+            </section>
+        </section>
+        <nav class="header-center-nav">
+            <figure>
+                <a href="index.html" class="header-left-nav-figure-a">
+                    <img src="images/logo.png" alt="logo" class="header-left-nav-figure-a-img">
+                </a>
+            </figure>
+            <section class="header-center-nav-section1">
+                <a href="index.html" class="header-center-nav-section1-a">Uczelnia</a>
+                <a href="index.html" class="header-center-nav-section1-a">Kadra</a>
+                <a href="index.html" class="header-center-nav-section1-a">Oferta</a>
+                <a href="index.html" class="header-center-nav-section1-a">Dla studenta</a>
+                <a href="index.html" class="header-center-nav-section1-a">Rekrutacja</a>
+                <a href="index.html" class="header-center-nav-section1-a">Kontakt</a>
+            </section>
+            <section class="header-center-nav-section2">
+                <a href="index.html" class="header-center-nav-section2-a">
+                    <img src="images/facebook_icon.png" alt="" class="header-center-nav-section2-a-img">
+                </a>
+                <a href="index.html" class="header-center-nav-section2-a">
+                    <img src="images/instagram_icon.png" alt="" class="header-center-nav-section2-a-img">
+                </a>
+                <a href="index.html" class="header-center-nav-section2-a">
+                    <img src="images/youtube_icon.png" alt="" class="header-center-nav-section2-a-img">
+                </a>
+                <a href="index.html" class="header-center-nav-section2-a">
+                    <img src="images/linkedin_icon.png" alt="" class="header-center-nav-section2-a-img">
+                </a>
+            </section>
+        </nav>
+        <p class="footer-across-p">
+            Copyright © 2021 WBST | Wyższe Baptystyczne Seminarium Teologiczne
+        </p>
+    </footer>
+    
+</body>
+
+</html>
