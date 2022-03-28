@@ -1,4 +1,4 @@
-# Webpage-Clone1-WBST1
+# Webpage-Clone2-WBST2
 > I made it myself in 12/2021. Live demo [_here_](https://mateusz-ramotowski-poland.github.io/Web-Page-Clone2-WBST2/). 
 
 ## Table of Contents
